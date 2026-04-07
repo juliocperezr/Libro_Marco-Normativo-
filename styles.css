@@ -1,0 +1,190 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f4f4;
+}
+
+/* LAYOUT PRINCIPAL */
+.container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* SIDEBAR */
+.sidebar {
+    width: 280px;
+    min-width: 280px;
+    background: #661639;
+    color: white;
+    height: 100%;
+    overflow-y: auto;
+    padding: 20px;
+    z-index: 2;
+}
+
+.sidebar h2 {
+    border-bottom: 2px solid #ceb585;
+    padding-bottom: 10px;
+}
+
+/* MENU */
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* ITEMS */
+.sidebar li {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 5px;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+/* HOVER */
+.sidebar li:hover {
+    background: #9e294b;
+    transform: translateX(5px);
+}
+
+/* ACTIVO */
+.sidebar li.active {
+    background: #ceb585;
+    color: #661639;
+    font-weight: bold;
+}
+
+/* INDICADOR */
+.sidebar li.active::before {
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 0;
+    width: 5px;
+    height: 100%;
+    background: #ceb585;
+    border-radius: 5px;
+}
+
+/* LIBRO CONTENEDOR */
+.book-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+}
+
+/* LIBRO */
+.book {
+    width: 90%;
+    max-width: 700px;
+    height: 450px;
+    perspective: 2000px;
+    position: relative;
+}
+
+/* PAGINAS */
+.page {
+    width: 100%;
+    height: 100%;
+    background: white;
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+    transform-origin: left;
+    transition: transform 0.8s;
+    padding: 25px;
+    overflow-y: auto;
+    backface-visibility: hidden;
+    z-index: 0;
+}
+
+/* EFECTO PASAR HOJA */
+.page.flipped {
+    transform: rotateY(-180deg);
+    z-index: 0;
+}
+
+/* BANNER */
+.banner {
+    background: linear-gradient(90deg, #661639, #9e294b);
+    color: white;
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+/* CONTROLES */
+.controls {
+    position: absolute;
+    bottom: 20px;
+    z-index: 3;
+}
+
+/* BOTONES */
+button {
+    background: #661639;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+/* HOVER */
+button:hover {
+    background: #9e294b;
+    transform: scale(1.05);
+}
+
+/* CLICK */
+button:active {
+    transform: scale(0.95);
+}
+
+/* ACTIVO */
+button.active {
+    background: #ceb585;
+    color: #661639;
+}
+
+
+/* CONTENEDOR */
+.progress-container {
+    width: 90%;
+    max-width: 700px;
+    height: 10px;
+    background: #ddd;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+/* BARRA */
+.progress-bar {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, #661639, #9e294b, #ceb585);
+    transition: width 0.4s ease;
+}
+
+/* TEXTO */
+.progress-text {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
