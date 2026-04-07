@@ -46,7 +46,7 @@ const contenido = [
 
             `
         },
-
+  /* =========================
 
         {
             titulo: "Ámbito Internacional (2)",
@@ -202,7 +202,7 @@ const contenido = [
             <p>Promueve ambientes escolares seguros.</p>
             `
         }
-
+========================== */
     ]
 }
 ];
