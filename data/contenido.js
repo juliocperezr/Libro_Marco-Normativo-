@@ -1,4 +1,4 @@
-const contenido = [
+const contenido = [ 
 {
     tema: "1.3 Marco Normativo",
     subtemas: [
