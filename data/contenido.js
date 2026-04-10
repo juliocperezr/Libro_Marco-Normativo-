@@ -1,4 +1,4 @@
-const contenido = [ 
+const contenido = [
 {
     tema: "1.3 Marco Normativo",
     subtemas: [
@@ -595,8 +595,134 @@ Niña y Niño: persona de género femenino o masculino menor de doce años de ed
 
 
             `
+        },
+
+        /* =========================
+           ÁMBITO NACIONAL
+        ========================== */
+        {
+            titulo: "Ámbito Nacional (1)",
+            pagina: `
+            <div class="banner">Constitución Política de México</div>
+
+            <p><strong>Artículo 1:</strong> Obligación del Estado de proteger los derechos humanos.</p>
+
+            <p><strong>Artículo 3:</strong> Educación basada en dignidad, derechos humanos e igualdad.</p>
+
+            <p>Promueve cultura de paz, valores y desarrollo integral.</p>
+            `
+        },
+        {
+            titulo: "Ámbito Nacional (2)",
+            pagina: `
+            <div class="banner">Ley General de Educación</div>
+
+            <p>Busca el desarrollo humano integral.</p>
+
+            <p>Promueve la equidad, excelencia y mejora continua.</p>
+
+            <p>Fomenta la cultura de paz y el respeto a los derechos humanos.</p>
+
+            <p>Impulsa habilidades socioemocionales y convivencia.</p>
+            `
+        },
+        {
+            titulo: "Ámbito Nacional (3)",
+            pagina: `
+            <div class="banner">Derechos de Niñas, Niños y Adolescentes</div>
+
+            <p>Derecho a educación de calidad.</p>
+
+            <p>Protección contra violencia, abuso y maltrato.</p>
+
+            <p>Promoción de convivencia escolar armónica.</p>
+
+            <p>Creación de mecanismos de prevención y atención.</p>
+            `
+        },
+        {
+            titulo: "Ámbito Nacional (4)",
+            pagina: `
+            <div class="banner">Ley de Acceso a una Vida Libre de Violencia</div>
+
+            <p>Define violencia laboral y docente.</p>
+
+            <p>Incluye acoso y hostigamiento sexual.</p>
+
+            <p>Promueve programas de detección temprana.</p>
+            `
+        },
+        {
+            titulo: "Ámbito Nacional (5)",
+            pagina: `
+            <div class="banner">Ley General de Víctimas</div>
+
+            <p>Garantiza reparación integral del daño.</p>
+
+            <p>Incluye atención médica, psicológica y social.</p>
+
+            <p>Protección a víctimas de violencia.</p>
+            `
+        },
+        {
+            titulo: "Ámbito Nacional (6)",
+            pagina: `
+            <div class="banner">Plan Nacional de Desarrollo</div>
+
+            <p>Promueve educación inclusiva y equitativa.</p>
+
+            <p>Impulsa cultura de paz y bienestar.</p>
+
+            <p>Fomenta igualdad sustantiva.</p>
+            `
+        },
+
+        /* =========================
+           ÁMBITO LOCAL
+        ========================== */
+        {
+            titulo: "Ámbito Local (1)",
+            pagina: `
+            <div class="banner">Constitución de Tlaxcala</div>
+
+            <p>Protección integral de niñas, niños y adolescentes.</p>
+
+            <p>Garantiza derechos humanos y bienestar.</p>
+            `
+        },
+        {
+            titulo: "Ámbito Local (2)",
+            pagina: `
+            <div class="banner">Ley de Educación de Tlaxcala</div>
+
+            <p>Fomenta valores, respeto y convivencia.</p>
+
+            <p>Promueve cultura de paz y resolución de conflictos.</p>
+            `
+        },
+        {
+            titulo: "Ámbito Local (3)",
+            pagina: `
+            <div class="banner">Código Penal de Tlaxcala</div>
+
+            <p>Sanciona el maltrato infantil.</p>
+
+            <p>Protege la integridad física y emocional.</p>
+            `
+        },
+        {
+            titulo: "Ámbito Local (4)",
+            pagina: `
+            <div class="banner">Ley contra la Violencia Escolar</div>
+
+            <p>Define tipos de violencia: física, verbal, psicológica y cibernética.</p>
+
+            <p>Establece medidas de prevención y atención.</p>
+
+            <p>Promueve ambientes escolares seguros.</p>
+            `
         }
-========================== */
+
     ]
 }
 ];
